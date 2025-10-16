@@ -114,7 +114,11 @@ print("-------------------------------------------\n"
 #     print(letter)
 
 # Write your code below:
+words = input("what is your word?")
 
+for letter in words:
+    print(letter)
+     
 
 # Extension 2:
 # -------------------------------------------
@@ -126,8 +130,10 @@ print("-------------------------------------------\n"
 # Hint: You can use range(start, stop, step) — for example, range(0, 10, 2)
 
 # Write your code below:
+number1 = int(input("what is your number?"))
 
-
+for num in range(0, number1, 2):
+    print(num)
 # Extension 3 (a bit harder):
 # -------------------------------------------
 print("-------------------------------------------\n"
